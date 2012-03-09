@@ -384,7 +384,7 @@ footer {
 }
 
 #container {
-  background: #f7eedd;
+  background: #fdfcfd;
 
   border: none;
 
@@ -421,7 +421,7 @@ img.icon {
 }
 
 .important {
-  background: #edfafd;
+  background: #e3f3fc;
   padding: 9px;
 
   font-family: "Museo", "Helvetica", "Arial", sans-serif;

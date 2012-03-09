@@ -347,14 +347,13 @@ a:visited {
 }
 
 header {
-  padding-top: 18px;
-  border-bottom: 18px solid white;
+  padding-top: 27px;
   position: fixed;
   width: 720px;
   top: 0pt;
   z-index: 999;
 
-  padding-bottom: 9px;
+  padding-bottom: 18px;
 }
 
 
@@ -387,13 +386,11 @@ footer {
 #container {
   background: #f7eedd;
 
-  border: solid 18px white;
-  border-top: none;
-  border-bottom: none;
+  border: none;
 
   padding-top: 150px;
 
-  margin-left: 90px;
+  margin-left: 108px;
 
   width: 720px;
 
@@ -414,7 +411,7 @@ footer {
 #logo {
   float: right;
   position: fixed;
-  top: 45px;
+  top: 43px;
   left: 660px;
 }
 

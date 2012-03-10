@@ -8,7 +8,8 @@
  * Pick from a rotating set of colors each time the page is loaded.
  */
 
-  _COLORS = [ '#fdd5d8', '#e3f3fc', '#c6f9e3', '#ccc', '#fdfae2' ];
+  //_COLORS = [ '#fdeded', '#e3f3fc', '#c6f9e3', '#ccc', '#fdfae2' ];
+  _COLORS = [ '#fde5e3', '#e7f7fc', '#ecf8f1', '#ccc', '#fdfae2' ];
 
   // Run this upon loading
   $(function () {
@@ -18,7 +19,7 @@
    cix = Math.floor(Math.random() * _COLORS.length);
 
    // Apply the color
-   $('header').css('background', _COLORS[cix]);
+   $('body').css('background-color', _COLORS[cix]);
   });
 
 /**

@@ -317,7 +317,7 @@ html {
 
 body {
   font-family: "MuseoSans", "Helvetica", "Arial", sans-serif;
-  background-image: url("../img/tile.gif");
+  background-image: url("../img/tile.png");
   text-align: left;
   height: 100%;
   color: #350105;
@@ -347,13 +347,15 @@ a:visited {
 }
 
 header {
-  padding: 18px 0;
-  position: absolute;
+  height: 54px;
   width: 720px;
+  padding: 18px 0;
+
+  position: absolute;
   top: 0pt;
   z-index: 4;
 
-  height: 54px;
+  background-color: #aaa;
 }
 header #title {
   font-family: "Museo", "Helvetica", "Arial", sans-serif;

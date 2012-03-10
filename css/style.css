@@ -426,7 +426,7 @@ img.icon {
 
 .important {
   background: #e3f3fc;
-  padding: 9px;
+  padding: 18px;
 
   font-family: "Museo", "Helvetica", "Arial", sans-serif;
   font-size: larger;
@@ -449,8 +449,94 @@ img.icon {
   font-family: "MuseoSans", "Helvetica", "Arial", sans-serif;
 }
 
+.ss-form-container {
+  margin-top: 9px;
+}
+.ss-form {
+  background: #f8f7f8;
+  padding: 18px;
+
+  font-family: "MuseoSans", "Helvetica", "Arial", sans-serif;
+  font-size: smaller;
+
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/* consistant text input formatting */
+.ss-form input[type=text], .ss-form textarea {
+  background: #f8f7f8;
+  color: #350105;
+  font-family: "MuseoSans", "Helvetica", "Arial", sans-serif;
+}
+
+.ss-form input[type=text] {
+  border: none;
+  border-bottom: 1px solid #350105;
+  width: 15ex;
+}
+
+.ss-form table input[type=text] {
+  margin-right: 18px;
+
+}
+.ss-form table td {
+  padding: 3px 0px;
+}
+
+.ss-item {
+  margin-top: 18px;
+}
+
+.ss-q-title {
+  font-family: "Museo", "Helvetica", "Arial", sans-serif;
+  display: block;
+}
+.ss-q-help {
+  font-size: smaller;
+  font-style: italic;
+}
+.ss-required-asterisk {
+  color: #f0c8ca;
+  margin-right: 1.5ex;
+  font-size: smaller;
+}
 
 
+ul.ss-choices {
+  list-style-type: none;
+  padding-left: 9px;
+  margin-top: 3px;
+}
+ul.ss-choices li.ss-choice-item {
+  display: inline;
+}
+ul.ss-choices li.ss-choice-item label {
+  font-size: smaller;
+  margin-right: 1ex;
+}
+ul.ss-choices li.ss-choice-item>input[type=radio] {
+  font-size: smaller;
+}
+
+.ss-paragraph-text textarea {
+  width: 99%;
+}
+
+.ss-form input[type=submit] {
+  background: #e3f3fc;
+  color: #350105;
+  padding: 3px 9px;
+
+  font-family: "Museo", "Helvetica", "Arial", sans-serif;
+  font-size: larger;
+
+  border: none;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
 
 
 

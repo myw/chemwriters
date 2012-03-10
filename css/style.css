@@ -347,24 +347,24 @@ a:visited {
 }
 
 header {
-  padding-top: 27px;
+  padding: 18px 0;
   position: fixed;
   width: 720px;
   top: 0pt;
   z-index: 999;
 
-  padding-bottom: 18px;
+  height: 54px;
 }
 
 
 header #title {
   font-family: "Museo", "Helvetica", "Arial", sans-serif;
-  font-size: 76px;
-  line-height: 66px;
+  font-size: 42px;
+  line-height: 36px;
   margin-left: 18px;
 }
 header #subtitle {
-  font-size: 24px;
+  font-size: 18px;
   margin-left: 36px;
   font-style: italic;
 }
@@ -373,7 +373,7 @@ header #subtitle {
   width: 720px;
 
   position: fixed;
-  top: 142px;
+  top: 89px;
   overflow: hidden;
 
   -moz-box-shadow: 0 2px 6px #333;
@@ -389,23 +389,24 @@ footer {
 
 #container {
   background: #fdfcfd;
-
   border: none;
 
-  padding-top: 150px;
-
   margin-left: 108px;
+  padding-top: 90px;
 
   width: 720px;
-
-  height: auto;
-  min-height: 100%;
 
   /* Drop-shadow */
   -moz-box-shadow: 2px 0px 12px #666;
   -webkit-box-shadow: 2px 0px 12px #666;
   box-shadow: 2px 0px 12px #666;
 
+}
+
+#scroller {
+  height: 100%;
+  overflow: auto;
+  margin: 0;
 }
 
 #main {
@@ -415,8 +416,9 @@ footer {
 #logo {
   float: right;
   position: fixed;
-  top: 43px;
+  top: 12px;
   left: 660px;
+  height: 100px;
 }
 
 img.icon {

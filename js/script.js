@@ -21,6 +21,24 @@
    $('header').css('background', _COLORS[cix]);
   });
 
+/**
+ * Keep the scrolling part the right size
+ */
+  $(function () {
+    var header_height = $('header').outerHeight();
+
+    function fix_height() {
+      $('#scroller').css('height', $(window).height() - header_height);
+    }
+
+    // Fix the height now
+    fix_height();
+
+    // Keep it fixed
+    $(window).resize(fix_height);
+
+  });
+
 
 })(); /* END File Scope */
 

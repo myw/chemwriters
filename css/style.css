@@ -420,9 +420,10 @@ footer {
   height: 100px;
 }
 
-img.icon {
-  height: 24px;
-
+.icon {
+  font-size: small;
+  float: right;
+  margin-top: 0.25em;
 }
 
 .important {

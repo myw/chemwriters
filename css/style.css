@@ -348,15 +348,13 @@ a:visited {
 
 header {
   padding: 18px 0;
-  position: fixed;
+  position: absolute;
   width: 720px;
   top: 0pt;
-  z-index: 999;
+  z-index: 4;
 
   height: 54px;
 }
-
-
 header #title {
   font-family: "Museo", "Helvetica", "Arial", sans-serif;
   font-size: 42px;
@@ -371,8 +369,9 @@ header #subtitle {
 #header-shadow {
   height: 1px;
   width: 720px;
+  z-index: 3;
 
-  position: fixed;
+  position: absolute;
   top: 89px;
   overflow: hidden;
 
@@ -415,9 +414,9 @@ footer {
 
 #logo {
   float: right;
-  position: fixed;
+  position: absolute;
   top: 12px;
-  left: 660px;
+  right: 60px;
   height: 100px;
 }
 
